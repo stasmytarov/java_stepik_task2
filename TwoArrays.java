@@ -58,8 +58,8 @@ class TwoArraysMethod{
         public static void main(String[] args) { 
            ArraysHelper helper = new ArraysHelper();
            TwoArraysMethod t = new TwoArraysMethod();
-           String userinput1 = helper.getUserInput("Введите числа для первого массива. Все числа вводятся через пробел, в порядке возрастания");
-           String userinput2 = helper.getUserInput("Введите числа для второго массива. Все числа вводятся через пробел, в порядке возрастания");
+           String userinput1 = helper.getUserInput("Введите числа для первого массива. Всe числа вводятся через пробел, в порядке их возрастания");
+           String userinput2 = helper.getUserInput("Введите числа для второго массива. Все числа вводятся через пробел, в порядке их возрастания");
            int[] numArr1 = Arrays.stream(userinput1.split(" ")).mapToInt(Integer::parseInt).toArray();
            int[] numArr2 = Arrays.stream(userinput2.split(" ")).mapToInt(Integer::parseInt).toArray();
            int[] result = t.mergeArrays(numArr1, numArr2);
