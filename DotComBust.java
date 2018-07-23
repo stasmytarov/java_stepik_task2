@@ -58,7 +58,7 @@ public class DotComBust {
 		System.out.println("Вы успели выбраться до того, как ваши вложения утонули. ");
 	    }
 	    else {
-		System.out.println("Это заняло у вас довольно много времени. " + numOfGuesses + " попыток. ");
+		System.out.println("Это заняло у вас много времени. " + numOfGuesses + " попыток. ");
 		System.out.println("Рыбы ходят хороводы вокруг ваших вложений.");
 	    }
 	}
